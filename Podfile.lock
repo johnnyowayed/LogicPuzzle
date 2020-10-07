@@ -1,0 +1,16 @@
+PODS:
+  - GestureRecognizerClosures (5.0.0)
+
+DEPENDENCIES:
+  - GestureRecognizerClosures
+
+SPEC REPOS:
+  trunk:
+    - GestureRecognizerClosures
+
+SPEC CHECKSUMS:
+  GestureRecognizerClosures: 0dcafb45e669e7a775c840383e54b3d16983037b
+
+PODFILE CHECKSUM: bcdc94fe09719bfc2295bbc93f91b63fed5a9ff8
+
+COCOAPODS: 1.9.3

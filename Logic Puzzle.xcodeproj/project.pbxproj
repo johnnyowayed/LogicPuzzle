@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1620BB67790A330550760306 /* Pods_Logic_Puzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D61C4691863EE146BD1F4 /* Pods_Logic_Puzzle.framework */; };
+		B2005F4B24D819D300E829C7 /* PuzzleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2005F4A24D819D300E829C7 /* PuzzleModel.swift */; };
+		B2005F4D24D81ECB00E829C7 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2005F4C24D81ECB00E829C7 /* ArrayExtensions.swift */; };
+		B210072E24DD69BF003B3BC8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B210072D24DD69BF003B3BC8 /* Utils.swift */; };
+		B270C1F724D2D8CE00BA297D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B270C1F624D2D8CE00BA297D /* AppDelegate.swift */; };
+		B270C1F924D2D8CE00BA297D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B270C1F824D2D8CE00BA297D /* SceneDelegate.swift */; };
+		B270C1FB24D2D8CE00BA297D /* PuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B270C1FA24D2D8CE00BA297D /* PuzzleViewController.swift */; };
+		B270C1FE24D2D8CE00BA297D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B270C1FC24D2D8CE00BA297D /* Main.storyboard */; };
+		B270C20024D2D8CF00BA297D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B270C1FF24D2D8CF00BA297D /* Assets.xcassets */; };
+		B270C20324D2D8CF00BA297D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B270C20124D2D8CF00BA297D /* LaunchScreen.storyboard */; };
+		B270C20C24D2EDBD00BA297D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B270C20B24D2EDBD00BA297D /* SnapKit */; };
+		B2C70BFC252CEF3900A4B2DD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C70BFB252CEF3900A4B2DD /* MainViewController.swift */; };
+		B2E6F4AA24D4280700CE1917 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E6F4A924D4280700CE1917 /* StringExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24930B031FD99A73D0490DB3 /* Pods-Logic Puzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logic Puzzle.debug.xcconfig"; path = "Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle.debug.xcconfig"; sourceTree = "<group>"; };
+		5C7D61C4691863EE146BD1F4 /* Pods_Logic_Puzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Logic_Puzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2005F4A24D819D300E829C7 /* PuzzleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleModel.swift; sourceTree = "<group>"; };
+		B2005F4C24D81ECB00E829C7 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		B210072D24DD69BF003B3BC8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B270C1F324D2D8CE00BA297D /* Logic Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Logic Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B270C1F624D2D8CE00BA297D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B270C1F824D2D8CE00BA297D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B270C1FA24D2D8CE00BA297D /* PuzzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleViewController.swift; sourceTree = "<group>"; };
+		B270C1FD24D2D8CE00BA297D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B270C1FF24D2D8CF00BA297D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B270C20224D2D8CF00BA297D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B270C20424D2D8CF00BA297D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C70BFB252CEF3900A4B2DD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B2E6F4A924D4280700CE1917 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		C1B2940BB7116AC13FA68F2B /* Pods-Logic Puzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logic Puzzle.release.xcconfig"; path = "Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B270C1F024D2D8CE00BA297D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B270C20C24D2EDBD00BA297D /* SnapKit in Frameworks */,
+				1620BB67790A330550760306 /* Pods_Logic_Puzzle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87F79C7A95417C89A1863223 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24930B031FD99A73D0490DB3 /* Pods-Logic Puzzle.debug.xcconfig */,
+				C1B2940BB7116AC13FA68F2B /* Pods-Logic Puzzle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2005F4924D819C200E829C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2005F4A24D819D300E829C7 /* PuzzleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B210072B24DD698A003B3BC8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B210072D24DD69BF003B3BC8 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B210072C24DD69A7003B3BC8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B270C20124D2D8CF00BA297D /* LaunchScreen.storyboard */,
+				B270C1FC24D2D8CE00BA297D /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B210072F24DD69E9003B3BC8 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2C70BFB252CEF3900A4B2DD /* MainViewController.swift */,
+				B270C1FA24D2D8CE00BA297D /* PuzzleViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		B270C1EA24D2D8CE00BA297D = {
+			isa = PBXGroup;
+			children = (
+				B270C1F524D2D8CE00BA297D /* Logic Puzzle */,
+				B270C1F424D2D8CE00BA297D /* Products */,
+				87F79C7A95417C89A1863223 /* Pods */,
+				F6FFDA5BFFAC6FE841E27A25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B270C1F424D2D8CE00BA297D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B270C1F324D2D8CE00BA297D /* Logic Puzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B270C1F524D2D8CE00BA297D /* Logic Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				B270C1FF24D2D8CF00BA297D /* Assets.xcassets */,
+				B270C20424D2D8CF00BA297D /* Info.plist */,
+				B270C1F624D2D8CE00BA297D /* AppDelegate.swift */,
+				B270C1F824D2D8CE00BA297D /* SceneDelegate.swift */,
+				B210072C24DD69A7003B3BC8 /* Storyboard */,
+				B210072F24DD69E9003B3BC8 /* View Controller */,
+				B210072B24DD698A003B3BC8 /* Utils */,
+				B2005F4924D819C200E829C7 /* Models */,
+				B2E6F4A824D427DF00CE1917 /* Extensions */,
+			);
+			path = "Logic Puzzle";
+			sourceTree = "<group>";
+		};
+		B2E6F4A824D427DF00CE1917 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2E6F4A924D4280700CE1917 /* StringExtensions.swift */,
+				B2005F4C24D81ECB00E829C7 /* ArrayExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F6FFDA5BFFAC6FE841E27A25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C7D61C4691863EE146BD1F4 /* Pods_Logic_Puzzle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B270C1F224D2D8CE00BA297D /* Logic Puzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B270C20724D2D8CF00BA297D /* Build configuration list for PBXNativeTarget "Logic Puzzle" */;
+			buildPhases = (
+				732293DC499F64FBA30EC67F /* [CP] Check Pods Manifest.lock */,
+				B270C1EF24D2D8CE00BA297D /* Sources */,
+				B270C1F024D2D8CE00BA297D /* Frameworks */,
+				B270C1F124D2D8CE00BA297D /* Resources */,
+				1D270AEDA399ED59448C1357 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Logic Puzzle";
+			packageProductDependencies = (
+				B270C20B24D2EDBD00BA297D /* SnapKit */,
+			);
+			productName = "Logic Puzzle";
+			productReference = B270C1F324D2D8CE00BA297D /* Logic Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B270C1EB24D2D8CE00BA297D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Johnny Owayed";
+				TargetAttributes = {
+					B270C1F224D2D8CE00BA297D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = B270C1EE24D2D8CE00BA297D /* Build configuration list for PBXProject "Logic Puzzle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B270C1EA24D2D8CE00BA297D;
+			packageReferences = (
+				B270C20A24D2EDBD00BA297D /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = B270C1F424D2D8CE00BA297D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B270C1F224D2D8CE00BA297D /* Logic Puzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B270C1F124D2D8CE00BA297D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B270C20324D2D8CF00BA297D /* LaunchScreen.storyboard in Resources */,
+				B270C20024D2D8CF00BA297D /* Assets.xcassets in Resources */,
+				B270C1FE24D2D8CE00BA297D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D270AEDA399ED59448C1357 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732293DC499F64FBA30EC67F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Logic Puzzle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B270C1EF24D2D8CE00BA297D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E6F4AA24D4280700CE1917 /* StringExtensions.swift in Sources */,
+				B2005F4D24D81ECB00E829C7 /* ArrayExtensions.swift in Sources */,
+				B270C1FB24D2D8CE00BA297D /* PuzzleViewController.swift in Sources */,
+				B210072E24DD69BF003B3BC8 /* Utils.swift in Sources */,
+				B2005F4B24D819D300E829C7 /* PuzzleModel.swift in Sources */,
+				B270C1F724D2D8CE00BA297D /* AppDelegate.swift in Sources */,
+				B270C1F924D2D8CE00BA297D /* SceneDelegate.swift in Sources */,
+				B2C70BFC252CEF3900A4B2DD /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B270C1FC24D2D8CE00BA297D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B270C1FD24D2D8CE00BA297D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B270C20124D2D8CF00BA297D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B270C20224D2D8CF00BA297D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B270C20524D2D8CF00BA297D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B270C20624D2D8CF00BA297D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B270C20824D2D8CF00BA297D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24930B031FD99A73D0490DB3 /* Pods-Logic Puzzle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 392C6MFL8U;
+				INFOPLIST_FILE = "Logic Puzzle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Logic-Puzzle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B270C20924D2D8CF00BA297D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B2940BB7116AC13FA68F2B /* Pods-Logic Puzzle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 392C6MFL8U;
+				INFOPLIST_FILE = "Logic Puzzle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Logic-Puzzle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B270C1EE24D2D8CE00BA297D /* Build configuration list for PBXProject "Logic Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B270C20524D2D8CF00BA297D /* Debug */,
+				B270C20624D2D8CF00BA297D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B270C20724D2D8CF00BA297D /* Build configuration list for PBXNativeTarget "Logic Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B270C20824D2D8CF00BA297D /* Debug */,
+				B270C20924D2D8CF00BA297D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B270C20A24D2EDBD00BA297D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B270C20B24D2EDBD00BA297D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B270C20A24D2EDBD00BA297D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B270C1EB24D2D8CE00BA297D /* Project object */;
+}
