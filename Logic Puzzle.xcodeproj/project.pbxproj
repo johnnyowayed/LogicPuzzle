@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1620BB67790A330550760306 /* Pods_Logic_Puzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7D61C4691863EE146BD1F4 /* Pods_Logic_Puzzle.framework */; };
+		4F2C2FC7B42D47FAAE9D4799 /* Pods_Logic_Puzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26D45A6791280A6B354F078 /* Pods_Logic_Puzzle.framework */; };
 		B2005F4B24D819D300E829C7 /* PuzzleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2005F4A24D819D300E829C7 /* PuzzleModel.swift */; };
 		B2005F4D24D81ECB00E829C7 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2005F4C24D81ECB00E829C7 /* ArrayExtensions.swift */; };
 		B210072E24DD69BF003B3BC8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B210072D24DD69BF003B3BC8 /* Utils.swift */; };
@@ -17,14 +17,13 @@
 		B270C1FE24D2D8CE00BA297D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B270C1FC24D2D8CE00BA297D /* Main.storyboard */; };
 		B270C20024D2D8CF00BA297D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B270C1FF24D2D8CF00BA297D /* Assets.xcassets */; };
 		B270C20324D2D8CF00BA297D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B270C20124D2D8CF00BA297D /* LaunchScreen.storyboard */; };
-		B270C20C24D2EDBD00BA297D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B270C20B24D2EDBD00BA297D /* SnapKit */; };
+		B270C20C24D2EDBD00BA297D /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = B270C20B24D2EDBD00BA297D /* SwiftPackageProductDependency */; };
 		B2C70BFC252CEF3900A4B2DD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C70BFB252CEF3900A4B2DD /* MainViewController.swift */; };
 		B2E6F4AA24D4280700CE1917 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E6F4A924D4280700CE1917 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24930B031FD99A73D0490DB3 /* Pods-Logic Puzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logic Puzzle.debug.xcconfig"; path = "Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle.debug.xcconfig"; sourceTree = "<group>"; };
-		5C7D61C4691863EE146BD1F4 /* Pods_Logic_Puzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Logic_Puzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		011B2A2AD0B452FEF4C609D2 /* Pods-Logic Puzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logic Puzzle.release.xcconfig"; path = "Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle.release.xcconfig"; sourceTree = "<group>"; };
 		B2005F4A24D819D300E829C7 /* PuzzleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleModel.swift; sourceTree = "<group>"; };
 		B2005F4C24D81ECB00E829C7 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		B210072D24DD69BF003B3BC8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -38,7 +37,8 @@
 		B270C20424D2D8CF00BA297D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2C70BFB252CEF3900A4B2DD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B2E6F4A924D4280700CE1917 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		C1B2940BB7116AC13FA68F2B /* Pods-Logic Puzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logic Puzzle.release.xcconfig"; path = "Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle.release.xcconfig"; sourceTree = "<group>"; };
+		C26D45A6791280A6B354F078 /* Pods_Logic_Puzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Logic_Puzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF1ADCAF87B79BBAA79389E /* Pods-Logic Puzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logic Puzzle.debug.xcconfig"; path = "Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,21 +46,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B270C20C24D2EDBD00BA297D /* SnapKit in Frameworks */,
-				1620BB67790A330550760306 /* Pods_Logic_Puzzle.framework in Frameworks */,
+				B270C20C24D2EDBD00BA297D /* BuildFile in Frameworks */,
+				4F2C2FC7B42D47FAAE9D4799 /* Pods_Logic_Puzzle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		87F79C7A95417C89A1863223 /* Pods */ = {
+		31F854546FB53F4A83ED6E19 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				24930B031FD99A73D0490DB3 /* Pods-Logic Puzzle.debug.xcconfig */,
-				C1B2940BB7116AC13FA68F2B /* Pods-Logic Puzzle.release.xcconfig */,
+				DFF1ADCAF87B79BBAA79389E /* Pods-Logic Puzzle.debug.xcconfig */,
+				011B2A2AD0B452FEF4C609D2 /* Pods-Logic Puzzle.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF1E91813218263971F4BF92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C26D45A6791280A6B354F078 /* Pods_Logic_Puzzle.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B2005F4924D819C200E829C7 /* Models */ = {
@@ -102,8 +111,8 @@
 			children = (
 				B270C1F524D2D8CE00BA297D /* Logic Puzzle */,
 				B270C1F424D2D8CE00BA297D /* Products */,
-				87F79C7A95417C89A1863223 /* Pods */,
-				F6FFDA5BFFAC6FE841E27A25 /* Frameworks */,
+				31F854546FB53F4A83ED6E19 /* Pods */,
+				AF1E91813218263971F4BF92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,14 +149,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		F6FFDA5BFFAC6FE841E27A25 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5C7D61C4691863EE146BD1F4 /* Pods_Logic_Puzzle.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,11 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B270C20724D2D8CF00BA297D /* Build configuration list for PBXNativeTarget "Logic Puzzle" */;
 			buildPhases = (
-				732293DC499F64FBA30EC67F /* [CP] Check Pods Manifest.lock */,
+				CCF20E03D96AE828AFE0748C /* [CP] Check Pods Manifest.lock */,
 				B270C1EF24D2D8CE00BA297D /* Sources */,
 				B270C1F024D2D8CE00BA297D /* Frameworks */,
 				B270C1F124D2D8CE00BA297D /* Resources */,
-				1D270AEDA399ED59448C1357 /* [CP] Embed Pods Frameworks */,
+				234D11371E18272B1FCD0831 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,7 +168,7 @@
 			);
 			name = "Logic Puzzle";
 			packageProductDependencies = (
-				B270C20B24D2EDBD00BA297D /* SnapKit */,
+				B270C20B24D2EDBD00BA297D /* SwiftPackageProductDependency */,
 			);
 			productName = "Logic Puzzle";
 			productReference = B270C1F324D2D8CE00BA297D /* Logic Puzzle.app */;
@@ -198,7 +199,7 @@
 			);
 			mainGroup = B270C1EA24D2D8CE00BA297D;
 			packageReferences = (
-				B270C20A24D2EDBD00BA297D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B270C20A24D2EDBD00BA297D /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = B270C1F424D2D8CE00BA297D /* Products */;
 			projectDirPath = "";
@@ -223,7 +224,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1D270AEDA399ED59448C1357 /* [CP] Embed Pods Frameworks */ = {
+		234D11371E18272B1FCD0831 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -240,7 +241,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		732293DC499F64FBA30EC67F /* [CP] Check Pods Manifest.lock */ = {
+		CCF20E03D96AE828AFE0748C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -420,7 +421,7 @@
 		};
 		B270C20824D2D8CF00BA297D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24930B031FD99A73D0490DB3 /* Pods-Logic Puzzle.debug.xcconfig */;
+			baseConfigurationReference = DFF1ADCAF87B79BBAA79389E /* Pods-Logic Puzzle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,7 +441,7 @@
 		};
 		B270C20924D2D8CF00BA297D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1B2940BB7116AC13FA68F2B /* Pods-Logic Puzzle.release.xcconfig */;
+			baseConfigurationReference = 011B2A2AD0B452FEF4C609D2 /* Pods-Logic Puzzle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -482,7 +483,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B270C20A24D2EDBD00BA297D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		B270C20A24D2EDBD00BA297D /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -493,9 +494,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B270C20B24D2EDBD00BA297D /* SnapKit */ = {
+		B270C20B24D2EDBD00BA297D /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B270C20A24D2EDBD00BA297D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = B270C20A24D2EDBD00BA297D /* RemoteSwiftPackageReference */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
