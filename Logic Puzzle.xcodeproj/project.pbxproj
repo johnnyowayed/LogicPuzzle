@@ -7,26 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F2C2FC7B42D47FAAE9D4799 /* Pods_Logic_Puzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26D45A6791280A6B354F078 /* Pods_Logic_Puzzle.framework */; };
 		B2005F4B24D819D300E829C7 /* PuzzleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2005F4A24D819D300E829C7 /* PuzzleModel.swift */; };
-		B2005F4D24D81ECB00E829C7 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2005F4C24D81ECB00E829C7 /* ArrayExtensions.swift */; };
-		B210072E24DD69BF003B3BC8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B210072D24DD69BF003B3BC8 /* Utils.swift */; };
+		B2005F4D24D81ECB00E829C7 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2005F4C24D81ECB00E829C7 /* ArrayExtension.swift */; };
+		B20D34FB25503E55008DC09E /* WinnerScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D34FA25503E55008DC09E /* WinnerScreenViewController.swift */; };
+		B210072E24DD69BF003B3BC8 /* PuzzleLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B210072D24DD69BF003B3BC8 /* PuzzleLogic.swift */; };
+		B24E5D2A25371F9E00C9F681 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24E5D2925371F9E00C9F681 /* Enums.swift */; };
+		B26DBB2225A330320049A1B4 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DBB2125A330320049A1B4 /* UIFont+Extension.swift */; };
+		B26DBB2525A460090049A1B4 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DBB2425A460090049A1B4 /* SettingsTableViewController.swift */; };
 		B270C1F724D2D8CE00BA297D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B270C1F624D2D8CE00BA297D /* AppDelegate.swift */; };
 		B270C1F924D2D8CE00BA297D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B270C1F824D2D8CE00BA297D /* SceneDelegate.swift */; };
 		B270C1FB24D2D8CE00BA297D /* PuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B270C1FA24D2D8CE00BA297D /* PuzzleViewController.swift */; };
 		B270C1FE24D2D8CE00BA297D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B270C1FC24D2D8CE00BA297D /* Main.storyboard */; };
 		B270C20024D2D8CF00BA297D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B270C1FF24D2D8CF00BA297D /* Assets.xcassets */; };
 		B270C20324D2D8CF00BA297D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B270C20124D2D8CF00BA297D /* LaunchScreen.storyboard */; };
-		B270C20C24D2EDBD00BA297D /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = B270C20B24D2EDBD00BA297D /* SwiftPackageProductDependency */; };
+		B270C20C24D2EDBD00BA297D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B270C20B24D2EDBD00BA297D /* SnapKit */; };
+		B2B5C3972543205500656FA9 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B5C3962543205500656FA9 /* UIViewExtension.swift */; };
 		B2C70BFC252CEF3900A4B2DD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C70BFB252CEF3900A4B2DD /* MainViewController.swift */; };
-		B2E6F4AA24D4280700CE1917 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E6F4A924D4280700CE1917 /* StringExtensions.swift */; };
+		B2E1F6322541AD91003DB4CF /* AIAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E1F6312541AD91003DB4CF /* AIAttributedString.swift */; };
+		B2E6F4AA24D4280700CE1917 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E6F4A924D4280700CE1917 /* StringExtension.swift */; };
+		B2F0DF882551550100E8E3B0 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F0DF872551550100E8E3B0 /* UIViewControllerExtension.swift */; };
+		B2FEDF6325A8642F00EBD608 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B2FEDF6225A8642F00EBD608 /* RxCocoa */; };
+		B2FEDF6525A8642F00EBD608 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B2FEDF6425A8642F00EBD608 /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		011B2A2AD0B452FEF4C609D2 /* Pods-Logic Puzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logic Puzzle.release.xcconfig"; path = "Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle.release.xcconfig"; sourceTree = "<group>"; };
 		B2005F4A24D819D300E829C7 /* PuzzleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleModel.swift; sourceTree = "<group>"; };
-		B2005F4C24D81ECB00E829C7 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
-		B210072D24DD69BF003B3BC8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B2005F4C24D81ECB00E829C7 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		B20D34FA25503E55008DC09E /* WinnerScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerScreenViewController.swift; sourceTree = "<group>"; };
+		B210072D24DD69BF003B3BC8 /* PuzzleLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleLogic.swift; sourceTree = "<group>"; };
+		B24E5D2925371F9E00C9F681 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		B26DBB2125A330320049A1B4 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		B26DBB2425A460090049A1B4 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		B270C1F324D2D8CE00BA297D /* Logic Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Logic Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B270C1F624D2D8CE00BA297D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B270C1F824D2D8CE00BA297D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,10 +46,12 @@
 		B270C1FF24D2D8CF00BA297D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B270C20224D2D8CF00BA297D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B270C20424D2D8CF00BA297D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B5C39425431EC500656FA9 /* Logic Puzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Logic Puzzle.entitlements"; sourceTree = "<group>"; };
+		B2B5C3962543205500656FA9 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		B2C70BFB252CEF3900A4B2DD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		B2E6F4A924D4280700CE1917 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		C26D45A6791280A6B354F078 /* Pods_Logic_Puzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Logic_Puzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFF1ADCAF87B79BBAA79389E /* Pods-Logic Puzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Logic Puzzle.debug.xcconfig"; path = "Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle.debug.xcconfig"; sourceTree = "<group>"; };
+		B2E1F6312541AD91003DB4CF /* AIAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIAttributedString.swift; sourceTree = "<group>"; };
+		B2E6F4A924D4280700CE1917 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		B2F0DF872551550100E8E3B0 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,32 +59,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B270C20C24D2EDBD00BA297D /* BuildFile in Frameworks */,
-				4F2C2FC7B42D47FAAE9D4799 /* Pods_Logic_Puzzle.framework in Frameworks */,
+				B2FEDF6525A8642F00EBD608 /* RxSwift in Frameworks */,
+				B2FEDF6325A8642F00EBD608 /* RxCocoa in Frameworks */,
+				B270C20C24D2EDBD00BA297D /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31F854546FB53F4A83ED6E19 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DFF1ADCAF87B79BBAA79389E /* Pods-Logic Puzzle.debug.xcconfig */,
-				011B2A2AD0B452FEF4C609D2 /* Pods-Logic Puzzle.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		AF1E91813218263971F4BF92 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C26D45A6791280A6B354F078 /* Pods_Logic_Puzzle.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		B2005F4924D819C200E829C7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,12 +76,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		B210072B24DD698A003B3BC8 /* Utils */ = {
+		B210072B24DD698A003B3BC8 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				B210072D24DD69BF003B3BC8 /* Utils.swift */,
+				B210072D24DD69BF003B3BC8 /* PuzzleLogic.swift */,
+				B24E5D2925371F9E00C9F681 /* Enums.swift */,
 			);
-			path = Utils;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		B210072C24DD69A7003B3BC8 /* Storyboard */ = {
@@ -97,13 +94,39 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		B210072F24DD69E9003B3BC8 /* View Controller */ = {
+		B210072F24DD69E9003B3BC8 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				B2C70BFB252CEF3900A4B2DD /* MainViewController.swift */,
-				B270C1FA24D2D8CE00BA297D /* PuzzleViewController.swift */,
+				B26DBB2725A460110049A1B4 /* Puzzle Controller */,
 			);
-			path = "View Controller";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B26DBB2725A460110049A1B4 /* Puzzle Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B270C1FA24D2D8CE00BA297D /* PuzzleViewController.swift */,
+				B26DBB2825A460390049A1B4 /* Winner Screen */,
+				B26DBB2925A4604B0049A1B4 /* Settings Controller */,
+			);
+			path = "Puzzle Controller";
+			sourceTree = "<group>";
+		};
+		B26DBB2825A460390049A1B4 /* Winner Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B20D34FA25503E55008DC09E /* WinnerScreenViewController.swift */,
+			);
+			path = "Winner Screen";
+			sourceTree = "<group>";
+		};
+		B26DBB2925A4604B0049A1B4 /* Settings Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B26DBB2425A460090049A1B4 /* SettingsTableViewController.swift */,
+			);
+			path = "Settings Controller";
 			sourceTree = "<group>";
 		};
 		B270C1EA24D2D8CE00BA297D = {
@@ -111,8 +134,6 @@
 			children = (
 				B270C1F524D2D8CE00BA297D /* Logic Puzzle */,
 				B270C1F424D2D8CE00BA297D /* Products */,
-				31F854546FB53F4A83ED6E19 /* Pods */,
-				AF1E91813218263971F4BF92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,24 +148,46 @@
 		B270C1F524D2D8CE00BA297D /* Logic Puzzle */ = {
 			isa = PBXGroup;
 			children = (
+				B2B5C39425431EC500656FA9 /* Logic Puzzle.entitlements */,
 				B270C1FF24D2D8CF00BA297D /* Assets.xcassets */,
 				B270C20424D2D8CF00BA297D /* Info.plist */,
 				B270C1F624D2D8CE00BA297D /* AppDelegate.swift */,
 				B270C1F824D2D8CE00BA297D /* SceneDelegate.swift */,
 				B210072C24DD69A7003B3BC8 /* Storyboard */,
-				B210072F24DD69E9003B3BC8 /* View Controller */,
-				B210072B24DD698A003B3BC8 /* Utils */,
+				B210072F24DD69E9003B3BC8 /* Main */,
+				B210072B24DD698A003B3BC8 /* Helpers */,
+				B2E1F62F2541AD82003DB4CF /* Libraries */,
 				B2005F4924D819C200E829C7 /* Models */,
 				B2E6F4A824D427DF00CE1917 /* Extensions */,
 			);
 			path = "Logic Puzzle";
 			sourceTree = "<group>";
 		};
+		B2E1F62F2541AD82003DB4CF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B2E1F6302541AD91003DB4CF /* Attributed String */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		B2E1F6302541AD91003DB4CF /* Attributed String */ = {
+			isa = PBXGroup;
+			children = (
+				B2E1F6312541AD91003DB4CF /* AIAttributedString.swift */,
+			);
+			name = "Attributed String";
+			path = "../../../fibler-ios/Fibler2/Resources/Libraries/Attributed String";
+			sourceTree = "<group>";
+		};
 		B2E6F4A824D427DF00CE1917 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B2E6F4A924D4280700CE1917 /* StringExtensions.swift */,
-				B2005F4C24D81ECB00E829C7 /* ArrayExtensions.swift */,
+				B2E6F4A924D4280700CE1917 /* StringExtension.swift */,
+				B2005F4C24D81ECB00E829C7 /* ArrayExtension.swift */,
+				B2B5C3962543205500656FA9 /* UIViewExtension.swift */,
+				B2F0DF872551550100E8E3B0 /* UIViewControllerExtension.swift */,
+				B26DBB2125A330320049A1B4 /* UIFont+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -156,11 +199,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B270C20724D2D8CF00BA297D /* Build configuration list for PBXNativeTarget "Logic Puzzle" */;
 			buildPhases = (
-				CCF20E03D96AE828AFE0748C /* [CP] Check Pods Manifest.lock */,
 				B270C1EF24D2D8CE00BA297D /* Sources */,
 				B270C1F024D2D8CE00BA297D /* Frameworks */,
 				B270C1F124D2D8CE00BA297D /* Resources */,
-				234D11371E18272B1FCD0831 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,7 +209,9 @@
 			);
 			name = "Logic Puzzle";
 			packageProductDependencies = (
-				B270C20B24D2EDBD00BA297D /* SwiftPackageProductDependency */,
+				B270C20B24D2EDBD00BA297D /* SnapKit */,
+				B2FEDF6225A8642F00EBD608 /* RxCocoa */,
+				B2FEDF6425A8642F00EBD608 /* RxSwift */,
 			);
 			productName = "Logic Puzzle";
 			productReference = B270C1F324D2D8CE00BA297D /* Logic Puzzle.app */;
@@ -199,7 +242,8 @@
 			);
 			mainGroup = B270C1EA24D2D8CE00BA297D;
 			packageReferences = (
-				B270C20A24D2EDBD00BA297D /* RemoteSwiftPackageReference */,
+				B270C20A24D2EDBD00BA297D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B2FEDF6125A8642F00EBD608 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = B270C1F424D2D8CE00BA297D /* Products */;
 			projectDirPath = "";
@@ -223,61 +267,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		234D11371E18272B1FCD0831 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Logic Puzzle/Pods-Logic Puzzle-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CCF20E03D96AE828AFE0748C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Logic Puzzle-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		B270C1EF24D2D8CE00BA297D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2E6F4AA24D4280700CE1917 /* StringExtensions.swift in Sources */,
-				B2005F4D24D81ECB00E829C7 /* ArrayExtensions.swift in Sources */,
+				B26DBB2225A330320049A1B4 /* UIFont+Extension.swift in Sources */,
+				B2E6F4AA24D4280700CE1917 /* StringExtension.swift in Sources */,
+				B2005F4D24D81ECB00E829C7 /* ArrayExtension.swift in Sources */,
+				B2B5C3972543205500656FA9 /* UIViewExtension.swift in Sources */,
 				B270C1FB24D2D8CE00BA297D /* PuzzleViewController.swift in Sources */,
-				B210072E24DD69BF003B3BC8 /* Utils.swift in Sources */,
+				B210072E24DD69BF003B3BC8 /* PuzzleLogic.swift in Sources */,
 				B2005F4B24D819D300E829C7 /* PuzzleModel.swift in Sources */,
 				B270C1F724D2D8CE00BA297D /* AppDelegate.swift in Sources */,
 				B270C1F924D2D8CE00BA297D /* SceneDelegate.swift in Sources */,
+				B24E5D2A25371F9E00C9F681 /* Enums.swift in Sources */,
+				B2F0DF882551550100E8E3B0 /* UIViewControllerExtension.swift in Sources */,
+				B26DBB2525A460090049A1B4 /* SettingsTableViewController.swift in Sources */,
+				B2E1F6322541AD91003DB4CF /* AIAttributedString.swift in Sources */,
 				B2C70BFC252CEF3900A4B2DD /* MainViewController.swift in Sources */,
+				B20D34FB25503E55008DC09E /* WinnerScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,9 +430,9 @@
 		};
 		B270C20824D2D8CF00BA297D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFF1ADCAF87B79BBAA79389E /* Pods-Logic Puzzle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Logic Puzzle/Logic Puzzle.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 392C6MFL8U;
 				INFOPLIST_FILE = "Logic Puzzle/Info.plist";
@@ -434,6 +443,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Logic-Puzzle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,9 +451,9 @@
 		};
 		B270C20924D2D8CF00BA297D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 011B2A2AD0B452FEF4C609D2 /* Pods-Logic Puzzle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Logic Puzzle/Logic Puzzle.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 392C6MFL8U;
 				INFOPLIST_FILE = "Logic Puzzle/Info.plist";
@@ -454,6 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Logic-Puzzle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -483,7 +494,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B270C20A24D2EDBD00BA297D /* RemoteSwiftPackageReference */ = {
+		B270C20A24D2EDBD00BA297D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -491,13 +502,31 @@
 				minimumVersion = 5.0.1;
 			};
 		};
+		B2FEDF6125A8642F00EBD608 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B270C20B24D2EDBD00BA297D /* SwiftPackageProductDependency */ = {
+		B270C20B24D2EDBD00BA297D /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B270C20A24D2EDBD00BA297D /* RemoteSwiftPackageReference */;
+			package = B270C20A24D2EDBD00BA297D /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		B2FEDF6225A8642F00EBD608 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2FEDF6125A8642F00EBD608 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		B2FEDF6425A8642F00EBD608 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2FEDF6125A8642F00EBD608 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
